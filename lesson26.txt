@@ -27,7 +27,7 @@ $ curl  http://162.55.220.72:5005/get_method?name=nikolay"&"age=39
 100    17  100    17    0     0    117      0 --:--:-- --:--:-- --:--:--   118["nikolay","39"]
 
 
-
+ 
 #!/bin/bash
 cd /c/folder26
 mkdir folder_01 folder_02 folder_03
