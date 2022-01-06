@@ -2,24 +2,24 @@
 2. mkdir namefolder
 3. cd namefolder
 4. mkdir namefolder1 namefolder2 namefolder3
-5. cd /namefolder/namefolder/ïîëíûé ïóòü ê ïàïêå èëè ôàéëó 
+5. cd /namefolder/namefolder/полный путь к папке или файлу 
 6. touch file1.txt file2.txt file3.txt file1.json file2.json
 7. mkdir namefolder4 namefolder5 namefolder6
 8. ls -la
 9. vim file.txt
-10. äëÿ ðåäàêòèðîâàíèÿ òåêñòà èñïîëüçóåòñÿ êëàâèøà "i"
-11. ïîñëå ðåäàêòèðîâàíèÿ òåêñòà "esc" , ":wq"
+10. для редактирования текста используется клавиша "i"
+11. после редактирования текста "esc" , ":wq"
 12. cd .. 
-13. åñëè ïàïêà â îäíîé äåðèêîðèèè mv namefile namefile dir/
-    åñëè ïàïêà íà óðîâåíü âûøå mv namefile namefile ../dir/
-14. åñëè ïàïêà â îäíîé äåðèêîðèèè cp namefile namefile dir/
-    åñëè ïàïêà íà óðîâåíü âûøå cp namefile namefile ../dir/
+13. если папка в одной дерикориии mv namefile namefile dir/
+    если папка на уровень выше mv namefile namefile ../dir/
+14. если папка в одной дерикориии cp namefile namefile dir/
+    если папка на уровень выше cp namefile namefile ../dir/
 15. find . -iname '*namefile*' 
-16.
+16. tail -f namefile
 17.head -n нужное кол-во строк namefile
 18.tail -n нужное колво строк namefile
-19.
-20. date
+19. less --clear namefile
+20. date 
 
 $ curl  http://162.55.220.72:5005/get_method?name=nikolay"&"age=39
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -52,3 +52,4 @@ drwxr-xr-x 1 Admin 197121 0 Jan  6 17:44 folder_003
 -rw-r--r-- 1 Admin 197121 0 Jan  6 17:44 text_1.txt
 -rw-r--r-- 1 Admin 197121 0 Jan  6 17:44 text_2.txt
 -rw-r--r-- 1 Admin 197121 0 Jan  6 17:44 text_3.txt
+
